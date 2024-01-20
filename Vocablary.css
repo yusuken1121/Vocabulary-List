@@ -6,10 +6,14 @@ body {
 input{
     border-radius: 16px;
     border: none;
-    padding: 6px 50px;
+    padding: 6px 40px;
+    margin: 10px;
+    text-align: left;
 }
 
 .input-area{
+    display: flex;
+    align-items: center;
     background-color: #c6e5d9;
     width: 400px;
     height: 50px;
@@ -48,5 +52,17 @@ input{
 
 .list-flow{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     
+}
+
+.flex-vocabulary{
+    margin-right: 10px;
+}
+
+
+button {
+    margin: 5px;
+    height: 30px;
 }
